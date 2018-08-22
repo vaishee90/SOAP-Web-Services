@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7ba236ce-0319-4e6d-baa5-59a438904ae2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3726/TopicalNewsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TopicalNewsService.xsd" MetadataType="Schema" ID="9f46f456-6ade-4434-833e-44ddf46cead3" SourceId="1" SourceUrl="http://localhost:3726/TopicalNewsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TopicalNewsService1.xsd" MetadataType="Schema" ID="c7ad4438-0223-4be5-9703-5d0e02684a29" SourceId="1" SourceUrl="http://localhost:3726/TopicalNewsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TopicalNewsService.disco" MetadataType="Disco" ID="7ddb1e8b-6c28-4483-860c-f422780b2736" SourceId="1" SourceUrl="http://localhost:3726/TopicalNewsService.svc?disco" />
+    <MetadataFile FileName="TopicalNewsService2.xsd" MetadataType="Schema" ID="dd66764e-40f1-452e-b56b-fdb8e64472cd" SourceId="1" SourceUrl="http://localhost:3726/TopicalNewsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TopicalNewsService.wsdl" MetadataType="Wsdl" ID="2379455c-f58f-49b5-8602-d8f8b059906a" SourceId="1" SourceUrl="http://localhost:3726/TopicalNewsService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
