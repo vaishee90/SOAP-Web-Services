@@ -14,7 +14,7 @@ namespace NewsFocus
         public string[] NewsFocus(string[] keyWords)
         {
             List<string> resultUrlList = new List<string>();
-            string apiKey = "dE5a9u1aBLmshdqXqpvThhwHLHGop1gkUJjjsnukjMQhGS1Gf3";
+            string apiKey = "";
             string query = "";
             Int32 count = 10;
             bool autoCorrect = true;
